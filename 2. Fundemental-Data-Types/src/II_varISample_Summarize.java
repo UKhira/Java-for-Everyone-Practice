@@ -15,9 +15,9 @@ public class II_varISample_Summarize {
     final double BOTTLE_VOLUME = 2;         // 2 liter bottle
 
     totalVolume = totalVolume + BOTTLE_VOLUME;
-
+    
     System.out.print("A six pack of two liter bottle contains ");
     System.out.print(totalVolume);
-    System.out.println(" liters");
+    System.out.println(" liters");   
  }
 }

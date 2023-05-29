@@ -30,5 +30,35 @@ public class I_var1 {
         
         A programmer reading the first statement may not understand the significance of the number 2. The second statement, with a named constant, makes the computation much clearer.
         */
+    name();
     }
+
+        public static void name() {
+            for (int a = 0; a < 16; a++) {
+                System.out.print("*");
+            }
+            System.out.print("	");
+    
+            for (int a = 0; a < 17; a++) {
+                System.out.print("*");
+            }
+            System.out.print("		*		*		*               *\n	*		*		*		*		*		*  *            *\n	*		*		*		*		*		*    *          *\n	*		*		*		");
+    
+            for (int a = 0; a < 17; a++) {
+                System.out.print("*");
+            }
+            System.out.print("		*      *	*");
+            System.out.print("\n*	*		*		*		*		*		*        *      *\n*	*		*		*		*		*		*          *    *\n*	*		*		*		*		*		*            *  *\n");
+    
+            for (int a = 0; a < 9; a++) {
+                System.out.print("*");
+            }
+            System.out.print("		");
+    
+            for (int a = 0; a < 17; a++) {
+                System.out.print("*");
+            }
+            System.out.print("		*		*		*               *");
+        }
+    
 }

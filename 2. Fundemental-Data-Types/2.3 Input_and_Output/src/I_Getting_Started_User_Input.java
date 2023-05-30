@@ -22,5 +22,9 @@ public class I_Getting_Started_User_Input {
         // print multiple values usimg format specifier
         System.out.printf("\nQuantity: %d Total: %8.2f" , bottles , total);
         // by %x we specify the number of characters, if we got less characters than it, it leaves blank space for them and print
+
+        int volume = 10;
+        System.out.printf ("The volume is %5d", volume);
+
     }
 }

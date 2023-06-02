@@ -26,7 +26,7 @@ public class II_fuel_tank {
         }
         System.out.println("Status Light is " + statusLight);
 
-        != >= <=
+       
 
     }
 }

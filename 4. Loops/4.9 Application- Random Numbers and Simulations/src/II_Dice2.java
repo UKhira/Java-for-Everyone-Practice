@@ -13,7 +13,6 @@ public class II_Dice2 {
         for (int i = 1; i <=5; i++) {
             int random = (int) (Math.random() * (5 - 3) + 1) * 3;
             System.out.println(random);
-            Math.get
         }
      }
 

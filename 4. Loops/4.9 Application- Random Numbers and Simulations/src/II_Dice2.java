@@ -9,11 +9,6 @@ public class II_Dice2 {
             int d2 = (int) (Math.random() * 6) + 1;
             System.out.println(d1 + " " + d2);
         }
-        System.out.println();
-        for (int i = 1; i <=5; i++) {
-            int random = (int) (Math.random() * (5 - 3) + 1) * 3;
-            System.out.println(random);
-        }
      }
 
     /*

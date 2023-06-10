@@ -24,6 +24,6 @@ public class I_cubeVolume {
         double len = in.nextDouble();
 
         double result2 = cubeVolume(len);
-        System.out.println("A cube with side length " + len + "has volume " + result2);
+        System.out.println("A cube with side length " + len + "  has volume " + result2);
     }
 }

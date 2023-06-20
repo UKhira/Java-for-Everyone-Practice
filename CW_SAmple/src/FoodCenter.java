@@ -46,7 +46,7 @@ public class FoodCenter {
             int choice = scanner.nextInt();
 
             switch (choice) {
-                case 100:
+                case 100 :
                     viewAllQueues();
                     break;
                 case 101:

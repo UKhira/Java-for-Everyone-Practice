@@ -25,13 +25,16 @@ public class I_PriintTotal {
 
         //  Read the input and write the output
         double total = 0;
+        int count = 0;
 
         while (in.hasNextDouble()){
             double value = in.nextDouble();
             out.printf("%15.2f\n", value);
             total = total + value;
+            count++;
         }
         out.printf("Total: %8.2f\n", total);
+        out.printf("Average: %8.0f\n", total/count);
 
         in.close();
         out.close();

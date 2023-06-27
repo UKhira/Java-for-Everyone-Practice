@@ -3,14 +3,12 @@
  */
 public class Car {
     private double gas;
-    private double driveDistance;
-    
+
     /**
      * Construct a car object with cleared gas and distance
      */
     public Car() {
         gas = 0;
-        driveDistance = 0;
     }
 
     /**
@@ -22,25 +20,17 @@ public class Car {
     }
 
     /**
-     * Check the availability of drive
+     * Calculate remaining gas amount after drive
     */
     public void drive(double distance){
-        driveDistance = gas * 10 / distance;
+        gas = gas - (distance/100);
     }
 
     /**
      * Total gas amount in car
-     * @return gas
+     * @return gas - gas amount in car
      */
     public double gasInCar (){
         return gas;
-    }
-
-    /**
-     * Distance can drive with gas amount
-     * @return driveDistance - distance can drive
-     */
-    public double canDrive(){
-        return driveDistance;
     }
 }

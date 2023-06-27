@@ -3,10 +3,10 @@ public class CarDrive {
         Car carOne = new Car();
 
         carOne.addGass(20);
-        carOne.addGass(5);
         carOne.drive(100);
-
+        carOne.drive(200);
+        carOne.addGass(5);
+        
         System.out.println("Total Gas amount in car: " + carOne.gasInCar());
-        System.out.println("Can drive " + carOne.canDrive() + " distance with current amount");
     }
 }

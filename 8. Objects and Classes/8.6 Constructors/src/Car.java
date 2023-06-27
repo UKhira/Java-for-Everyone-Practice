@@ -16,14 +16,14 @@ public class Car {
      * @param gas amount
     */
     public void addGass(double gasAmount){
-        gas += gasAmount;
+        this.gas += gasAmount;
     }
 
     /**
      * Calculate remaining gas amount after drive
     */
     public void drive(double distance){
-        gas = gas - (distance/100);
+        this.gas = gas - (distance/100);
     }
 
     /**

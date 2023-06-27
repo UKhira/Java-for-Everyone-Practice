@@ -39,8 +39,8 @@ public class III_DataAnalyzer {
            catch(IOException exception){
                 exception.printStackTrace();
            }
-           in.close();
         }
+        in.close();
     }
 
     /**

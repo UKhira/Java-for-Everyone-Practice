@@ -1,0 +1,5 @@
+United States 328.2
+China 1393.8
+India 1366.4
+Brazil 211.0
+Germany 83.0

@@ -1,0 +1,5 @@
+United States 9.8
+China 9.6
+India 3.3
+Brazil 8.5
+Germany 0.36

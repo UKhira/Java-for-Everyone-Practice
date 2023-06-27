@@ -24,6 +24,7 @@ public class readNum {
                 break;
             }
         }
+        in.close();
     }
 
     public static void digitChecker(int digitCount,int numberInMain) {

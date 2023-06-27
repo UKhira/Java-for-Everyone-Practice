@@ -1,0 +1,5 @@
+United States                                     33.49
+China                                            145.19
+India                                            414.06
+Brazil                                            24.82
+Germany                                          230.56

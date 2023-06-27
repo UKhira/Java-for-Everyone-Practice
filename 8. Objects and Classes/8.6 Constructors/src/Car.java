@@ -7,8 +7,8 @@ public class Car {
     /**
      * Construct a car object with cleared gas and distance
      */
-    public Car() {
-        gas = 0;
+    public Car(int gasAmount) {
+        gas = gasAmount;
     }
 
     /**

@@ -1,6 +1,6 @@
 public class CarDrive {
     public static void main(String[] args) {
-        Car carOne = new Car();
+        Car carOne = new Car(50);
 
         carOne.addGass(20);
         carOne.drive(100);

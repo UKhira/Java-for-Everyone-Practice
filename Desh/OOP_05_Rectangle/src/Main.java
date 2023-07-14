@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        Rectangle r1 = new Rectangle(); // this object will call the default constructor
+        Triangle r1 = new Triangle(); // this object will call the default constructor
         System.out.println("Count: " + r1.count); // count is a static variable, so it is shared by all objects
-        System.out.println("Count: " + Rectangle.count);
-        Rectangle r2 = new Rectangle(10, 5); // this object will call the parameterized constructor
+        System.out.println("Count: " + Triangle.count);
+        Triangle r2 = new Triangle(10, 5); // this object will call the parameterized constructor
         // System.out.println("Count: " + r2.count);
-        System.out.println("Count: " + Rectangle.count);
-        Rectangle r3 = new Rectangle(15, 7); // this object will call the parameterized constructor
+        System.out.println("Count: " + Triangle.count);
+        Triangle r3 = new Triangle(15, 7); // this object will call the parameterized constructor
         // System.out.println("Count: " + r3.count);  
-        System.out.println("Count: " + Rectangle.count);
+        System.out.println("Count: " + Triangle.count);
 
         System.out.println("Area of r1: " + r1.getArea());
         System.out.println("Perimeter of r1: " + r1.getPerimeter());
